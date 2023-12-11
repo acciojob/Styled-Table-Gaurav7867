@@ -1,1 +1,14 @@
 /* your code */
+thead,th{
+	background-color:mediumvioletred;
+	border-collapse:collapse;
+	color:white;
+   padding: 4px;
+	text-align:left;
+}
+table{
+	border-collapse:collapse;
+}
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
